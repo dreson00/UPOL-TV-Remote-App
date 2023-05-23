@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRemote">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:padding="0dp"
+        app:contentInsetStart="0dp"
+        android:gravity="center_horizontal"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            app:justifyContent="space_between">
+
+            <ImageView
+                android:id="@+id/add_remote_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/baseline_arrow_back_24"
+                android:layout_marginStart="15dp"/>
+
+            <ImageView
+                android:id="@+id/add_remote_done_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/baseline_done_24"
+                android:layout_marginEnd="15dp"/>
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/remote_name_field"
+        android:background="@drawable/background_container"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="12dp"
+        android:ems="10"
+        android:hint="@string/remote_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/background_container"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:overlapAnchor="false"
+        app:layout_constraintEnd_toEndOf="@id/remote_name_field"
+        app:layout_constraintStart_toStartOf="@+id/remote_name_field"
+        app:layout_constraintTop_toBottomOf="@+id/remote_name_field" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

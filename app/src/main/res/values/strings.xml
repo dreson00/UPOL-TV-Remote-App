@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TV Ovladač</string>
+    <string name="add">Přidat</string>
+    <string name="remote_name">Název ovladače</string>
+    <string name="remote_default_name">Nový ovladač</string>
+    <string name="remote_program_button_description">CH</string>
+    <string name="remote_volume_button_description">V</string>
+    <string name="main_activity_title">Ovladače</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="no_ir_port">Toto zařízení nemá IR port.</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

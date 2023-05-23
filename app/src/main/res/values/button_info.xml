@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="power">POWER</string>
+    <string name="volume_up">V_UP</string>
+    <string name="volume_down">V_DOWN</string>
+    <string name="next_program">P_NEXT</string>
+    <string name="previous_program">P_PREVIOUS</string>
+
+    <string name="format_pulses">pulses</string>
+    <string name="format_NEC">NEC</string>
+</resources>
