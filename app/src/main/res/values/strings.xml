@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">TV Ovladač</string>
-    <string name="add">Přidat</string>
-    <string name="remote_name">Název ovladače</string>
-    <string name="remote_default_name">Nový ovladač</string>
+    <string name="app_name">TV Remote</string>
+    <string name="add">Add</string>
+    <string name="remote_name">Remote name</string>
+    <string name="remote_default_name">New Remote</string>
     <string name="remote_program_button_description">CH</string>
     <string name="remote_volume_button_description">V</string>
-    <string name="main_activity_title">Ovladače</string>
+    <string name="main_activity_title">Remote controls</string>
     <string name="title_activity_settings">SettingsActivity</string>
-    <string name="no_ir_port">Toto zařízení nemá IR port.</string>
+    <string name="no_ir_port">This device has no IR port.</string>
 
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
